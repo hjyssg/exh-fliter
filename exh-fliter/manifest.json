@@ -2,7 +2,8 @@
   "name": "exh-fliter",
   "manifest_version": 2,
   "version": "0.1",
-  "web_accessible_resources":["rurutie.jpg"],
+  "web_accessible_resources":["rurutie.jpg","rurutie-0.jpg", "rurutie-1.jpg", 
+                              "rurutie-2.jpg","rurutie-3.jpg", "rurutie-4.jpg"],
   "content_scripts": [
     {
       "matches": ["http://exhentai.org/*","http://exhentai.org/?page=*",
