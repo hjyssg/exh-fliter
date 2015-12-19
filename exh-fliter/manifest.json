@@ -1,0 +1,15 @@
+{
+  "name": "exh-fliter",
+  "manifest_version": 2,
+  "version": "0.1",
+  "web_accessible_resources":["rurutie.jpg"],
+  "content_scripts": [
+    {
+      "matches": ["http://exhentai.org/*","http://exhentai.org/?page=*",
+                  "http://g.e-hentai.org/?page=*", "http://g.e-hentai.org/*"],
+      "exclude_matches":["http://exhentai.org/g/*"],
+      "js": ["jquery.js", "myscript.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
